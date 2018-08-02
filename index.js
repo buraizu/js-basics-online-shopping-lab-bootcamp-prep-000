@@ -25,7 +25,7 @@ function viewCart() {
     displayCart.push[i];
     }
   }
-}
+
 
 function total() {
   // write your code here
