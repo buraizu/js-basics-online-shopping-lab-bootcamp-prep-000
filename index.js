@@ -39,8 +39,10 @@ function viewCart() {
 function total() {
   let total = 0;
   cart.forEach(function(element){
-    
+    let sum = parseInt(element.itemPrice);
+    total += sum;
   })
+  return total;
 }
 
 function removeFromCart(item) {
