@@ -29,7 +29,7 @@ function viewCart() {
     } else if (cart.length === 1) {
       return `In your cart, you have ${displayCart[0].itemName} at $${displayCart[0].itemPrice}.`
     } else if (displayCart.length === 2) {
-      return `In your cart, you have ${displayCart[0].itemName} at $${displayCart[0].itemPrice} and ${displayCart[1].itemName} at $${displayCart[1].itemPrice}.`
+      return `In your cart, you have ${displayCart[0].itemName} at $${displayCart[0].itemPrice}, and ${displayCart[1].itemName} at $${displayCart[1].itemPrice}.`
     } else if (displayCart.length === 3) {
       return `In your cart, you have ${displayCart[0].itemName} at $${displayCart[0].itemPrice}, ${displayCart[1].itemName} at $${displayCart[1].itemPrice}, and ${displayCart[2].itemName} at $${displayCart[2].itemPrice}.`
     }
