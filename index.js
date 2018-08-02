@@ -37,7 +37,10 @@ function viewCart() {
 
 
 function total() {
-  // write your code here
+  let total = 0;
+  cart.forEach(function(element){
+    
+  })
 }
 
 function removeFromCart(item) {
